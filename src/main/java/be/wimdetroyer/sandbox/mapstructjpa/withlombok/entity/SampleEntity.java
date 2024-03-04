@@ -23,7 +23,7 @@ public class SampleEntity {
         entityChild.setParent(this);
     }
 
-    public void removeComment(SampleEntityChild entityChild) {
+    public void removeChild(SampleEntityChild entityChild) {
         children.remove(entityChild);
         entityChild.setParent(null);
     }
