@@ -1,9 +1,8 @@
-package be.wimdetroyer.sandbox.mapstructjpa.mapping;
+package be.wimdetroyer.sandbox.mapstructjpa.simple.mapping;
 
 
-import be.wimdetroyer.sandbox.mapstructjpa.dto.SampleDTO;
-import be.wimdetroyer.sandbox.mapstructjpa.entity.SampleEntity;
-import be.wimdetroyer.sandbox.mapstructjpa.entity.SampleEntityChild;
+import be.wimdetroyer.sandbox.mapstructjpa.simple.dto.SampleDTO;
+import be.wimdetroyer.sandbox.mapstructjpa.simple.entity.SampleEntity;
 import org.mapstruct.CollectionMappingStrategy;
 import org.mapstruct.Mapper;
 

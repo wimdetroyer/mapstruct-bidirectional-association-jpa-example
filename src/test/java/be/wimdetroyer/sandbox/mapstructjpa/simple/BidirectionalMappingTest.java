@@ -1,9 +1,8 @@
-import be.wimdetroyer.sandbox.mapstructjpa.dto.SampleDTO;
-import be.wimdetroyer.sandbox.mapstructjpa.dto.SampleDTOChild;
-import be.wimdetroyer.sandbox.mapstructjpa.entity.SampleEntity;
-import be.wimdetroyer.sandbox.mapstructjpa.entity.SampleEntityChild;
-import be.wimdetroyer.sandbox.mapstructjpa.mapping.BidirectionalAssociationMapper;
-import be.wimdetroyer.sandbox.mapstructjpa.mapping.BidirectionalAssociationMapperImpl;
+package be.wimdetroyer.sandbox.mapstructjpa.simple;
+import be.wimdetroyer.sandbox.mapstructjpa.simple.dto.SampleDTO;
+import be.wimdetroyer.sandbox.mapstructjpa.simple.dto.SampleDTOChild;
+import be.wimdetroyer.sandbox.mapstructjpa.simple.mapping.BidirectionalAssociationMapper;
+import be.wimdetroyer.sandbox.mapstructjpa.simple.mapping.BidirectionalAssociationMapperImpl;
 import org.junit.Assert;
 import org.junit.Test;
 

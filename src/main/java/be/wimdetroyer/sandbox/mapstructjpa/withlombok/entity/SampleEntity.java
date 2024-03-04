@@ -1,8 +1,15 @@
-package be.wimdetroyer.sandbox.mapstructjpa.entity;
+package be.wimdetroyer.sandbox.mapstructjpa.withlombok.entity;
+
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class SampleEntity {
 
     private String someField;
@@ -21,20 +28,4 @@ public class SampleEntity {
         entityChild.setParent(null);
     }
 
-
-    public String getSomeField() {
-        return someField;
-    }
-
-    public void setSomeField(String someField) {
-        this.someField = someField;
-    }
-
-    public List<SampleEntityChild> getChildren() {
-        return children;
-    }
-
-    public void setChildren(List<SampleEntityChild> children) {
-        this.children = children;
-    }
 }

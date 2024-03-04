@@ -1,4 +1,4 @@
-package be.wimdetroyer.sandbox.mapstructjpa.dto;
+package be.wimdetroyer.sandbox.mapstructjpa.simple.dto;
 
 public class SampleDTOChild {
 
